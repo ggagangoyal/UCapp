@@ -14,7 +14,6 @@ class SessionsController <ApplicationController
 			flash.now[:alert] = "There is something wrong with ur details"
 			render 'new'
 		end
-
 	end
 
 	def destroy
